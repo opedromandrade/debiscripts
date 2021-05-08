@@ -23,7 +23,7 @@ sudo apt install i965-va-driver-shaders intel-media-va-driver-non-free intel-gpu
 
 ## Small things
 # Open JDK
-sudo apt install openjdk-11-jre
+sudo apt install openjdk-17-jre
 
 # Git
 sudo apt install git
