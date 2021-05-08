@@ -5,7 +5,7 @@
 # updated on: 08.05.2021
 #
 # Let's roll!
-### Debian
+
 ## Debian Multimedia
 # Get that key
 wget http://www.deb-multimedia.org/pool/main/d/deb-multimedia-keyring/deb-multimedia-keyring_2016.8.1_all.deb
@@ -25,7 +25,9 @@ sudo apt install openjdk-11-jre
 # Git
 sudo apt install git
 
-## Some extra zing to Ubuntu
+## Some extra zing to Debian
+# TrueType Fonts
+sudo apt-get install ttf-mscorefonts-installer
 # Restricted extras (includes a bunch of cool stuff, codecs and fonts)
 sudo apt install ubuntu-restricted-extras
 
