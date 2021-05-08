@@ -41,7 +41,7 @@ sudo apt-get install libdvdcss2
 
 ## Audio files software
 # Rhythmbox
-sudo apt install rhythmbox
+#sudo apt install rhythmbox
 
 # Quodlibet and exfalso
 sudo apt install quodlibet exfalso
@@ -114,6 +114,5 @@ sudo apt install wireguard
 sudo apt autoremove && sudo apt autoclean
 
 # Gotta reboot now
-
 echo $'\n'$"*** Follow the white rabbit & reboot ***"
 exit
