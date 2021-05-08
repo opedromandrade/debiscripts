@@ -18,6 +18,9 @@ sudo apt update && sudo apt upgrade
 # Remove stuff
 sudo apt remove gnome-2048 gnome-klotski gnome-mines gnome-robots gnome-sudoku gnome-taquin gnome-tetravex four-in-a-row hitori iagno lightsoff gnome-music quadrapassel tali transmission-gtk
 
+# Install Intel proprietary stuff
+sudo apt install i965-va-driver-shaders intel-media-va-driver-non-free intel-gpu-tools
+
 ## Small things
 # Open JDK
 sudo apt install openjdk-11-jre
@@ -80,11 +83,11 @@ sudo apt install audacity
 sudo apt install libreoffice-gnome libreoffice
 
 ## Internet Stuff
-# Extra browser [Chromium] & Flash support
-sudo apt install chromium-browser
+# Extra browser Chromium and some extra stuff. For more info: https://wiki.debian.org/Chromium#Drivers_and_libraries_according_to_your_hardware
+sudo apt install chromium chromium-l10n i965-va-driver-shaders libva-drm2 libva-x11-2
 
 # FTP support
-sudo apt install filezilla
+#sudo apt install filezilla
 
 # p2p
 sudo apt install qbittorrent
@@ -106,9 +109,6 @@ sudo apt install chrome-gnome-shell gedit-plugin-text-size gnome-tweak-tool
 
 # VPN stuff
 sudo apt install wireguard
-
-# Install Intel proprietary stuff
-sudo apt install i965-va-driver-shaders intel-media-va-driver-non-free intel-gpu-tools
 
 # Clean some more [just for reinsurance]
 sudo apt autoremove && sudo apt autoclean
