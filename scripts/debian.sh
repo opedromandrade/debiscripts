@@ -77,7 +77,7 @@ sudo apt install audacity
 #sudo apt install simplescreenrecorder
 
 ## LibreOffice
-
+sudo apt install libreoffice-gnome libreoffice
 
 ## Internet Stuff
 # Extra browser [Chromium] & Flash support
