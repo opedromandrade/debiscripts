@@ -84,7 +84,7 @@ sudo apt install libreoffice-gnome libreoffice
 
 ## Internet Stuff
 # Extra browser Chromium and some extra stuff. For more info: https://wiki.debian.org/Chromium#Drivers_and_libraries_according_to_your_hardware
-sudo apt install chromium chromium-l10n i965-va-driver-shaders libva-drm2 libva-x11-2
+sudo apt install chromium chromium-l10n libva-drm2 libva-x11-2
 
 # FTP support
 #sudo apt install filezilla
