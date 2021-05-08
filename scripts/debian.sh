@@ -69,6 +69,8 @@ sudo apt install darktable
 ## Video and Audio creation
 # Kdenlive
 sudo apt install kdenlive
+# Remove KDE Connect
+sudo apt remove kdeconnect
 
 # Openshot
 #sudo apt install openshot
