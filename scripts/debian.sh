@@ -28,12 +28,13 @@ sudo apt install git
 ## Some extra zing to Debian
 # TrueType Fonts
 sudo apt-get install ttf-mscorefonts-installer
-# Restricted extras (includes a bunch of cool stuff, codecs and fonts)
-sudo apt install ubuntu-restricted-extras
 
 ## Video player
 # VLC
 sudo apt install vlc
+
+# DVD support
+sudo apt-get install libdvdcss2
 
 ## Audio files software
 # Rhythmbox
@@ -112,7 +113,7 @@ sudo apt install i965-va-driver-shaders intel-media-va-driver-non-free intel-gpu
 # Clean some more [just for reinsurance]
 sudo apt autoremove && sudo apt autoclean
 
-# Gotta reboot now:
+# Gotta reboot now
 
 echo $'\n'$"*** Follow the white rabbit & reboot ***"
 exit
