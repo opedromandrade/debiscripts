@@ -79,7 +79,8 @@ sudo apt install audacity
 #Simple Screen Recorder
 #sudo apt install simplescreenrecorder
 
-## LibreOffice
+## Office tools
+# LibreOffice
 sudo apt install libreoffice-gnome libreoffice
 
 ## Internet Stuff
