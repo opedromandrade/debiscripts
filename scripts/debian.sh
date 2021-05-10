@@ -49,7 +49,7 @@ sudo apt-get install ttf-mscorefonts-installer ttf-liberation
 # DVD support
 #sudo apt-get install libdvdcss2
 
-## Audio files software
+## Audio software
 # Rhythmbox
 #sudo apt install rhythmbox
 
