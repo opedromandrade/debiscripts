@@ -40,7 +40,8 @@ sudo apt install tlp tlp-rdw
 # Make it happen
 sudo tlp start
 
-# VPN stuff
+## VPN stuff
+# Get wireguard
 sudo apt install wireguard
 
 ## Office tools
@@ -84,6 +85,10 @@ sudo apt install unace rar zip unzip p7zip p7zip-full p7zip-rar sharutils uudevi
 ## Image editing
 # Mighty GIMP
 sudo apt install gimp gimp-plugin-registry gimp-data-extras
+
+## Photography
+# Rapid Photo Downloader - ccullign them photos
+sudo apt install rapid-photo-downloader
 
 # Darktable
 sudo apt install darktable
