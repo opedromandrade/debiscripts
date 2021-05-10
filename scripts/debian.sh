@@ -1,8 +1,8 @@
 #!/bin/bash
-# Author:
-#   Pedro Andrade - https://github.com/opedromandrade
+# 
+# Author: Pedro Andrade - https://github.com/opedromandrade
 #
-# updated on: 08.05.2021
+# updated on: 09.05.2021
 #
 # Let's roll!
 
@@ -28,16 +28,20 @@ sudo apt install openjdk-17-jre
 # Git
 sudo apt install git
 
+## Office tools
+# LibreOffice
+sudo apt install libreoffice-gnome libreoffice
+
 ## Some extra zing to Debian
 # TrueType Fonts
-sudo apt-get install ttf-mscorefonts-installer
+sudo apt-get install ttf-mscorefonts-installer ttf-liberation
 
 ## Video player
 # VLC
 sudo apt install vlc
 
 # DVD support
-sudo apt-get install libdvdcss2
+#sudo apt-get install libdvdcss2
 
 ## Audio files software
 # Rhythmbox
@@ -80,10 +84,6 @@ sudo apt install audacity
 
 #Simple Screen Recorder
 #sudo apt install simplescreenrecorder
-
-## Office tools
-# LibreOffice
-sudo apt install libreoffice-gnome libreoffice
 
 ## Internet Stuff
 # Extra browser Chromium and some extra stuff. For more info: https://wiki.debian.org/Chromium#Drivers_and_libraries_according_to_your_hardware
