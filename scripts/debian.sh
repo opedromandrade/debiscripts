@@ -31,6 +31,18 @@ sudo apt install git
 # Menu
 #sudo apt install menu menu-l10n
 
+# Handy tools
+sudo apt install net-tools
+
+## Battery Laptop Tweak
+# Install the magic
+sudo apt install tlp tlp-rdw
+# Make it happen
+sudo tlp start
+
+# VPN stuff
+sudo apt install wireguard
+
 ## Office tools
 # LibreOffice
 sudo apt install libreoffice-gnome libreoffice
@@ -104,20 +116,12 @@ sudo apt install qbittorrent
 # Firewall
 sudo apt install gufw
 
-# Handy tools
-sudo apt install net-tools
-
-## Battery Laptop Tweak
-# Install the magic
-sudo apt install tlp tlp-rdw
-# Make it happen
-sudo tlp start
-
+## Beautify
 # Beautify tools
 sudo apt install chrome-gnome-shell gedit-plugin-text-size gnome-tweak-tool
 
-# VPN stuff
-sudo apt install wireguard
+# NUMiX
+sudo apt install numix-gtk-theme numix-icon-theme numix-icon-theme-circle
 
 # Clean some more [just for reinsurance]
 sudo apt autoremove && sudo apt autoclean
