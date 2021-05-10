@@ -28,6 +28,9 @@ sudo apt install openjdk-17-jre
 # Git
 sudo apt install git
 
+# Menu
+#sudo apt install menu menu-l10n
+
 ## Office tools
 # LibreOffice
 sudo apt install libreoffice-gnome libreoffice
