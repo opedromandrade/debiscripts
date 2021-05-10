@@ -6,6 +6,9 @@
 #
 # Let's roll!
 
+# Remove stuff
+sudo apt remove gnome-2048 gnome-klotski gnome-mines gnome-robots gnome-sudoku gnome-taquin gnome-tetravex four-in-a-row hitori iagno lightsoff gnome-music quadrapassel tali transmission-gtk
+
 ## Debian Multimedia
 # Get that key
 wget http://www.deb-multimedia.org/pool/main/d/deb-multimedia-keyring/deb-multimedia-keyring_2016.8.1_all.deb
@@ -14,9 +17,6 @@ sudo dpkg -i deb-multimedia-keyring_2016.8.1_all.deb
 
 # Update system
 sudo apt update && sudo apt upgrade
-
-# Remove stuff
-sudo apt remove gnome-2048 gnome-klotski gnome-mines gnome-robots gnome-sudoku gnome-taquin gnome-tetravex four-in-a-row hitori iagno lightsoff gnome-music quadrapassel tali transmission-gtk
 
 # Install Intel proprietary stuff
 sudo apt install i965-va-driver-shaders intel-media-va-driver-non-free intel-gpu-tools
@@ -52,7 +52,7 @@ sudo apt install myspell-pt-pt hyphen-pt-pt libreoffice-l10n-pt mythes-pt-pt lib
 
 ## Some extra zing to Debian
 # TrueType Fonts
-sudo apt-get install ttf-mscorefonts-installer ttf-liberation
+sudo apt-get install ttf-mscorefonts-installer
 
 ## Video player
 # VLC
