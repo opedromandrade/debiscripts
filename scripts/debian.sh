@@ -32,7 +32,7 @@ sudo apt install git
 # LibreOffice
 sudo apt install libreoffice-gnome libreoffice
 
-# LibreOffice localization et all
+# LibreOffice Portuguese localization et all
 sudo apt install myspell-pt-pt hyphen-pt-pt libreoffice-l10n-pt mythes-pt-pt libreoffice-help-pt
 
 ## Some extra zing to Debian
