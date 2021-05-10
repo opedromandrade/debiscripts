@@ -32,13 +32,16 @@ sudo apt install git
 # LibreOffice
 sudo apt install libreoffice-gnome libreoffice
 
+# LibreOffice localization et all
+sudo apt install myspell-pt-pt hyphen-pt-pt libreoffice-l10n-pt mythes-pt-pt libreoffice-help-pt
+
 ## Some extra zing to Debian
 # TrueType Fonts
 sudo apt-get install ttf-mscorefonts-installer ttf-liberation
 
 ## Video player
 # VLC
-sudo apt install vlc
+#sudo apt install vlc
 
 # DVD support
 #sudo apt-get install libdvdcss2
