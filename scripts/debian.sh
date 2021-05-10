@@ -120,6 +120,9 @@ sudo apt install gufw
 # Beautify tools
 sudo apt install chrome-gnome-shell gedit-plugin-text-size gnome-tweak-tool
 
+# Set Adwaita Dark
+gsettings set org.gnome.desktop.interface gtk-theme 'Adwaita-dark'
+
 # NUMiX
 sudo apt install numix-gtk-theme numix-icon-theme numix-icon-theme-circle
 
