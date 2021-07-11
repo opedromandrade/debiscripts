@@ -19,37 +19,37 @@ sudo dpkg -i deb-multimedia-keyring_2016.8.1_all.deb
 sudo apt update && sudo apt upgrade
 
 # Install Intel proprietary stuff
-sudo apt install i965-va-driver-shaders intel-media-va-driver-non-free intel-gpu-tools
+sudo apt-get install i965-va-driver-shaders intel-media-va-driver-non-free intel-gpu-tools
 
 ## Small things
 # Open JDK
-sudo apt install openjdk-17-jre
+sudo apt-get install openjdk-17-jre
 
 # Git
-sudo apt install git
+sudo apt-get install git
 
 # Menu
-#sudo apt install menu menu-l10n
+#sudo apt-get install menu menu-l10n
 
 # Handy tools
-sudo apt install net-tools
+sudo apt-get install net-tools
 
 ## Battery Laptop Tweak
 # Install the magic
-sudo apt install tlp tlp-rdw
+sudo apt-get install tlp tlp-rdw
 # Make it happen
 sudo tlp start
 
 ## VPN stuff
 # Get wireguard
-sudo apt install wireguard
+sudo apt-get install wireguard
 
 ## Office tools
 # LibreOffice
-sudo apt install libreoffice-gnome libreoffice
+sudo apt-get install libreoffice-gnome libreoffice
 
 # LibreOffice Portuguese localization et all
-sudo apt install myspell-pt-pt hyphen-pt-pt libreoffice-l10n-pt mythes-pt-pt libreoffice-help-pt
+sudo apt-get install myspell-pt-pt hyphen-pt-pt libreoffice-l10n-pt mythes-pt-pt libreoffice-help-pt
 
 ## Some extra zing to Debian
 # TrueType Fonts
@@ -57,79 +57,79 @@ sudo apt-get install ttf-mscorefonts-installer
 
 ## Video player
 # VLC
-#sudo apt install vlc
+#sudo apt-get install vlc
 
 # DVD support
 #sudo apt-get install libdvdcss2
 
 ## Audio software
 # Rhythmbox
-#sudo apt install rhythmbox
+#sudo apt-get install rhythmbox
 
 # Quodlibet and exfalso
-sudo apt install quodlibet exfalso
+sudo apt-get install quodlibet exfalso
 
 # EasyTAG
-sudo apt install easytag
+sudo apt-get install easytag
 
 ## Book stuff
 # Sigil
-sudo apt install sigil
+sudo apt-get install sigil
 
 # Calibre
 sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
 
 ## Aditional formats for compression
-sudo apt install unace rar zip unzip p7zip p7zip-full p7zip-rar sharutils uudeview arj cabextract
+sudo apt-get install unace rar zip unzip p7zip p7zip-full p7zip-rar sharutils uudeview arj cabextract
 
 ## Image editing
 # Mighty GIMP
-sudo apt install gimp gimp-plugin-registry gimp-data-extras
+sudo apt-get install gimp gimp-plugin-registry gimp-data-extras
 
 ## Photography
-# Rapid Photo Downloader - ccullign them photos
-sudo apt install rapid-photo-downloader
+# Rapid Photo Downloader - culling them photos
+sudo apt-get install rapid-photo-downloader
 
 # Darktable
-sudo apt install darktable
+sudo apt-get install darktable
 
 ## Video and Audio creation
 # Kdenlive
-sudo apt install kdenlive
+sudo apt-get install kdenlive
 # Remove KDE Connect
 sudo apt remove kdeconnect
 
 # Openshot
-#sudo apt install openshot
+#sudo apt-get install openshot
 
 # Audacity
-sudo apt install audacity
+sudo apt-get install audacity
 
 #Simple Screen Recorder
-#sudo apt install simplescreenrecorder
+#sudo apt-get install simplescreenrecorder
 
 ## Internet Stuff
 # Extra browser Chromium and some extra stuff. For more info: https://wiki.debian.org/Chromium#Drivers_and_libraries_according_to_your_hardware
-sudo apt install chromium chromium-l10n libva-drm2 libva-x11-2
+sudo apt-get install chromium chromium-l10n libva-drm2 libva-x11-2
 
 # FTP support
-#sudo apt install filezilla
+#sudo apt-get install filezilla
 
 # p2p
-sudo apt install qbittorrent
+sudo apt-get install qbittorrent
 
 # Firewall
-sudo apt install gufw
+sudo apt-get install gufw
 
 ## Beautify
 # Beautify tools
-sudo apt install chrome-gnome-shell gedit-plugin-text-size gnome-tweak-tool
+sudo apt-get install chrome-gnome-shell gedit-plugin-text-size gnome-tweak-tool
 
 # Set Adwaita Dark
 gsettings set org.gnome.desktop.interface gtk-theme 'Adwaita-dark'
 
 # NUMiX
-sudo apt install numix-gtk-theme numix-icon-theme numix-icon-theme-circle
+sudo apt-get install numix-gtk-theme numix-icon-theme numix-icon-theme-circle
 
 # Clean some more [just for reinsurance]
 sudo apt autoremove && sudo apt autoclean
