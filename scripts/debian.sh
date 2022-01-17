@@ -24,6 +24,9 @@ sudo apt update && sudo apt upgrade
 # Activate touchpad tap2click
 sudo apt-get install xdotool wmctrl libinput-tools
 
+# Instal bash-completion
+sudo apt-get bash-completion
+
 ## Small things
 # Open JDK
 #sudo apt-get install openjdk-17-jre
