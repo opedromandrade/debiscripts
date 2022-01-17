@@ -32,7 +32,7 @@ sudo apt-get install xdotool wmctrl libinput-tools
 sudo apt-get install git
 
 # Menu
-#sudo apt-get install menu menu-l10n
+sudo apt-get install menu menu-l10n
 
 # Handy tools
 sudo apt-get install net-tools
@@ -61,6 +61,9 @@ sudo apt-get install ttf-mscorefonts-installer
 ## Video player
 # VLC
 #sudo apt-get install vlc
+
+# MPV
+#sudo apt-get install mpv
 
 # DVD support
 #sudo apt-get install libdvdcss2
@@ -129,7 +132,7 @@ sudo apt-get install gufw
 #sudo apt-get install chrome-gnome-shell gedit-plugin-text-size gnome-tweak-tool
 
 # Set Adwaita Dark
-gsettings set org.gnome.desktop.interface gtk-theme 'Adwaita-dark'
+#gsettings set org.gnome.desktop.interface gtk-theme 'Adwaita-dark'
 
 # NUMiX
 #sudo apt-get install numix-gtk-theme numix-icon-theme numix-icon-theme-circle
