@@ -1,44 +1,24 @@
 #!/bin/bash
 # 
+# This script installs the software I need on a fresh installed Debian system. Feel free to adapt and to edit at your liking. After install, it's advised to reboot.
 # Author: Pedro Andrade - https://github.com/opedromandrade
-#
-# updated on: 17.01.2022
+# updated on: 18.01.2022
 #
 # Let's roll!
+#
 
-# Remove stuff - if on Gnome
+## Remove this stuff - if on Gnome
 #sudo apt remove gnome-2048 gnome-klotski gnome-mines gnome-robots gnome-sudoku gnome-taquin gnome-tetravex four-in-a-row hitori iagno lightsoff gnome-music quadrapassel tali transmission-gtk
-
-## Debian Multimedia
-# Get that key
-#wget http://www.deb-multimedia.org/pool/main/d/deb-multimedia-keyring/deb-multimedia-keyring_2016.8.1_all.deb
-# Make magic
-#sudo dpkg -i deb-multimedia-keyring_2016.8.1_all.deb
 
 # Update system
 sudo apt update && sudo apt upgrade
 
-# Install Intel proprietary stuff
+### Hardware
+# Install Intel proprietary stuff - https://wiki.debian.org/HardwareVideoAcceleration
 #sudo apt-get install i965-va-driver-shaders intel-media-va-driver-non-free intel-gpu-tools
 
 # Activate touchpad tap2click
 sudo apt-get install xdotool wmctrl libinput-tools
-
-# Instal bash-completion
-sudo apt-get bash-completion
-
-## Small things
-# Open JDK
-#sudo apt-get install openjdk-17-jre
-
-# Git
-sudo apt-get install git
-
-# Menu
-sudo apt-get install menu menu-l10n
-
-# Handy tools
-sudo apt-get install net-tools
 
 ## Battery Laptop Tweak
 # Install the magic
@@ -46,9 +26,25 @@ sudo apt-get install tlp tlp-rdw
 # Make it happen
 sudo tlp start
 
-## VPN stuff
-# Get wireguard
-#sudo apt-get install wireguard
+### Software
+# Instal bash-completion
+sudo apt-get bash-completion
+
+## Small things
+# Open JDK
+sudo apt-get install openjdk-17-jre
+
+# Handy tools git, wget
+sudo apt-get install net-tools git wget
+
+# Htop and Neofetch
+sudo apt-get install gtop neofetch
+
+# Menu
+sudo apt-get install menu menu-l10n
+
+# If on XFCE
+sudo apt-get install xfce4-whiskermenu-plugin
 
 ## Office tools
 # LibreOffice
@@ -104,9 +100,9 @@ sudo apt-get install darktable
 
 ## Video and Audio creation
 # Kdenlive
-sudo apt-get install kdenlive
+#sudo apt-get install kdenlive
 # Remove KDE Connect
-sudo apt remove kdeconnect
+#sudo apt remove kdeconnect
 
 # ShotCut
 sudo apt-get install shotcut
@@ -127,18 +123,25 @@ sudo apt-get install chromium chromium-l10n libva-drm2 libva-x11-2
 # p2p
 sudo apt-get install qbittorrent
 
+## VPN stuff
+# Get wireguard
+#sudo apt-get install wireguard
+
 # Firewall
 sudo apt-get install gufw
 
 ## Beautify
-# Beautify tools
+# Beautify tools - if on Gnome
 #sudo apt-get install chrome-gnome-shell gedit-plugin-text-size gnome-tweak-tool
 
-# Set Adwaita Dark
+# Set Adwaita Dark - - if on Gnome
 #gsettings set org.gnome.desktop.interface gtk-theme 'Adwaita-dark'
 
 # NUMiX
 #sudo apt-get install numix-gtk-theme numix-icon-theme numix-icon-theme-circle
+
+# Cursor theme
+sudo apt-get install dmz-cursor-theme
 
 # Clean some more [just for reinsurance]
 sudo apt autoremove && sudo apt autoclean
