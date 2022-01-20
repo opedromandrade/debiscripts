@@ -8,7 +8,8 @@ Suggestions are very welcome.
 1. debian.sh - My [Debian](https://www.debian.org/) post-install script. it just install stuff to make my computer needs.
 2. debian_bt.sh - My [Debian](https://www.debian.org/) script to install bluetooth.
 3. debian_iPhone.sh - My [Debian](https://www.debian.org/) script to access iPhone.
-4. Sources - My [Debian](https://www.debian.org/) source list for both stable and testing systems.
+4. debian_zoom.sh - My [Debian](https://www.debian.org/) to install zoom.
+5. Sources - My [Debian](https://www.debian.org/) source list for both stable and testing systems.
 
 ## How to use
 
