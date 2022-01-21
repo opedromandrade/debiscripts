@@ -2,13 +2,16 @@
 # 
 # This script installs the software I need on a fresh installed Debian system. Feel free to adapt and to edit at your liking. After install, it's advised to reboot.
 # Author: Pedro Andrade - https://github.com/opedromandrade
-# updated on: 18.01.2022
+# updated on: 21.01.2022
 #
 # Let's roll!
 #
 
 ## Remove this stuff - if on Gnome
 #sudo apt remove gnome-2048 gnome-klotski gnome-mines gnome-robots gnome-sudoku gnome-taquin gnome-tetravex four-in-a-row hitori iagno lightsoff gnome-music quadrapassel tali transmission-gtk
+
+#Remove intel open drivers
+#sudo apt-get remove intel-media-va-driver
 
 # Update system
 sudo apt update && sudo apt upgrade
@@ -28,7 +31,7 @@ sudo tlp start
 
 ### Software
 # Instal bash-completion
-sudo apt-get bash-completion
+sudo apt-get install bash-completion
 
 ## Small things
 # Open JDK
@@ -38,7 +41,7 @@ sudo apt-get install openjdk-17-jre
 sudo apt-get install net-tools git wget
 
 # Htop and Neofetch
-sudo apt-get install gtop neofetch
+sudo apt-get install htop neofetch
 
 # Menu
 sudo apt-get install menu menu-l10n
@@ -100,12 +103,12 @@ sudo apt-get install darktable
 
 ## Video and Audio creation
 # Kdenlive
-#sudo apt-get install kdenlive
+sudo apt-get install kdenlive
 # Remove KDE Connect
-#sudo apt remove kdeconnect
+sudo apt-get remove kdeconnect
 
 # ShotCut
-sudo apt-get install shotcut
+#sudo apt-get install shotcut
 
 # Audacity
 sudo apt-get install audacity
@@ -115,7 +118,7 @@ sudo apt-get install simplescreenrecorder
 
 ## Internet Stuff
 # Extra browser Chromium and some extra stuff. For more info: https://wiki.debian.org/Chromium#Drivers_and_libraries_according_to_your_hardware
-sudo apt-get install chromium chromium-l10n libva-drm2 libva-x11-2
+#sudo apt-get install chromium chromium-l10n libva-drm2 libva-x11-2
 
 # FTP support
 #sudo apt-get install filezilla
