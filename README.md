@@ -1,7 +1,6 @@
 # debiscripts
 ## What's this about?
-Just a small collection of [Debian](https://www.debian.org/) scripts and mirrors to make life easier for [Debian](https://www.debian.org/) users. Feel free to transform, distribute or adapt this script according to **YOUR** needs.
-
+Just a small collection of [Debian](https://www.debian.org/) scripts and mirrors to make life easier for [Debian](https://www.debian.org/) users. 
 Suggestions are very welcome.
 
 ## What's in the zip
