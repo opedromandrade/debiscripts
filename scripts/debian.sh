@@ -1,31 +1,31 @@
 #!/bin/bash
 # 
-# This script installs the software I need on a fresh installed Debian system. Feel free to adapt and to edit at your liking. After install, it's advised to reboot.
+# This script installs the software I need on a fresh Debian installation. Feel free to adapt it to your liking. After installation, it's a good idea to reboot.
 
-#Remove intel open drivers
+# Remove Intel open-source drivers
 #sudo apt-get remove intel-media-va-driver
 
-# Update system
+# Update system 🔄
 sudo apt clean && \
 sudo apt update && \
 sudo apt dist-upgrade -y && \
 sudo apt --fix-broken install -y
 
-### Hardware
+### Hardware 🖥️
 # Install Intel proprietary stuff - https://wiki.debian.org/HardwareVideoAcceleration
 #sudo apt-get install i965-va-driver-shaders intel-media-va-driver-non-free intel-gpu-tools
 
-## Battery Laptop Tweak
+## Laptop battery tweaks 🔋
 # Install the magic
 #sudo apt-get install tlp tlp-rdw
 # Make it happen
 #sudo tlp start
 
-### Software
-# Instal bash-completion
+### Software 📦
+# Install bash-completion
 sudo apt-get install bash-completion
 
-# Aditional formats for compression
+# Additional compression formats
 sudo apt-get install unace rar zip unzip p7zip p7zip-full p7zip-rar sharutils uudeview arj cabextract
 
 ## Small things
@@ -45,10 +45,10 @@ sudo apt-get install menu menu-l10n
 # LibreOffice
 sudo apt-get install libreoffice
 
-# LibreOffice Portuguese localization et all
+# LibreOffice Portuguese localization and related tools
 sudo apt-get install myspell-pt hyphen-pt-pt libreoffice-l10n-pt mythes-pt-pt hunspell-pt-pt libreoffice-help-pt
 
-## Some extra zing to Debian
+## A little extra polish for Debian ✨
 # TrueType Fonts
 sudo apt-get install ttf-mscorefonts-installer
 
@@ -56,14 +56,14 @@ sudo apt-get install ttf-mscorefonts-installer
 # DVD support
 #sudo apt-get install libdvdcss2
 
-## Audio software
+## Audio software 🎵
 # Quodlibet and exfalso
 sudo apt-get install quodlibet exfalso
 
 # EasyTAG
 sudo apt-get install easytag
 
-## Book stuff
+## Books 📚
 # Sigil
 sudo apt-get install sigil sigil-data
 
@@ -81,17 +81,17 @@ sudo apt-get install calibre
 # Darktable
 #sudo apt-get install darktable
 
-## Video and Audio creation
+## Video and audio creation 🎬
 # ShotCut
 #sudo apt-get install shotcut
 
 # Audacity
 sudo apt-get install audacity
 
-#Simple Screen Recorder
+# Simple Screen Recorder
 #sudo apt-get install simplescreenrecorder
 
-## Internet Stuff
+## Internet stuff 🌐
 # Extra browser Chromium and some extra stuff. For more info: https://wiki.debian.org/Chromium#Drivers_and_libraries_according_to_your_hardware
 #sudo apt-get install chromium chromium-l10n libva-drm2 libva-x11-2
 
@@ -101,22 +101,22 @@ sudo apt-get install audacity
 # p2p
 #sudo apt-get install qbittorrent
 
-## VPN stuff
+## VPN tools 🔐
 #sudo apt-get install openvpn network-manager-openvpn wireguard
 
 # Firewall
 sudo apt-get install gufw
 
-## Beautify
+## Desktop appearance 🎨
 # NUMiX
 #sudo apt-get install numix-gtk-theme numix-icon-theme numix-icon-theme-circle
 
 # Cursor theme
 sudo apt-get install dmz-cursor-theme
 
-# Clean some more [just for reinsurance]
+# Clean up a little more [just for reassurance]
 sudo apt autoremove && sudo apt autoclean -y
 
-# Gotta reboot now
+# Time to reboot 🔁
 echo $'\n'$"*** Follow the white rabbit & reboot ***"
 exit
