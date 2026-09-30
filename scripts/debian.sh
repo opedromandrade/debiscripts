@@ -1,6 +1,6 @@
 #!/bin/bash
-# 
 # This script installs the software I need on a fresh Debian installation. Feel free to adapt it to your liking. After installation, it's a good idea to reboot.
+# Modified: 30.09.2026
 
 # Remove Intel open-source drivers
 #sudo apt-get remove intel-media-va-driver
