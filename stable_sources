@@ -1,6 +1,6 @@
 #------------------------------------------------------------------------------#
 #                     MY DEBIAN STABLE REPOSITORIES                            #
-#------------------------- Updated: 30.09.2026 --------------------------------#
+#                          Updated: 30.09.2026                                 #
 #------------------------------------------------------------------------------#
 # Debian stable, currently Debian 13 (Trixie)
 deb https://deb.debian.org/debian stable main contrib non-free non-free-firmware
