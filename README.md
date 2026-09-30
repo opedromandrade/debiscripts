@@ -1,19 +1,23 @@
-# debiscripts
-## What's this about?
-Just a small collection of [Debian](https://www.debian.org/) scripts and mirrors to make life easier for [Debian](https://www.debian.org/) users. 
-Suggestions are very welcome.
+# debiscripts 🐧
 
-## What's in the zip
-1. debian.sh - My [Debian](https://www.debian.org/) post-install script. it just install stuff to make my computer needs.
-2. debian_bt.sh - My [Debian](https://www.debian.org/) script to install bluetooth.
-3. debian_iPhone.sh - My [Debian](https://www.debian.org/) script to access iPhone.
-4. debian_zoom.sh - My [Debian](https://www.debian.org/) to install zoom.
-5. Sources - My [Debian](https://www.debian.org/) source list for both stable and testing systems.
+## What's this about?
+
+A small, curated collection of [Debian](https://www.debian.org/) scripts and mirrors designed to make your life slightly less painful. Because let's be honest: while `apt` is great, sometimes you just want to automate the boring stuff so you can get back to compiling kernels or staring at the terminal in silence. ☕
+
+Suggestions are welcome. Criticism is also accepted, provided it comes with a good reason (and maybe a patch).
+
+## What's inside?
+
+*(See the repository files for the specific magic.)*
+Basically, it's a toolbox. Some tools fix things, some organize things, and some just make sure your system doesn't forget to update itself while you were sleeping.
 
 ## How to use
 
-1. [Download [zip]](https://github.com/opedromandrade/debiscripts/archive/master.zip)
-2. Extract the desired script
-3. Run it
+It’s not rocket science, but it does require a little attention:
 
-    `$ sh ./myscript.sh`
+1.  **Grab the goods**: [Download the zip](https://github.com/opedromandrade/debiscripts/archive/master.zip) (or clone the repo if you’re fancy).
+2.  **Pick your poison**: Extract the script you actually need. Don't run everything at once unless you enjoy chaos.
+3.  **Execute**: Run it with a shell.
+
+```bash
+$ sh ./myscript.sh
